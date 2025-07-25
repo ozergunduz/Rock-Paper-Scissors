@@ -1,5 +1,20 @@
 body {
     animation: changeBackgroundColor 5s infinite alternate-reverse;
+    display: flex;
+    flex-direction: column;
+}
+
+.mainContainer{
+border: solid 2px gainsboro;
+border-radius: 10px;
+padding: 0px 20px;
+height: 600px;
+min-width: 600px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
 
 }
 
@@ -63,3 +78,26 @@ button {
     background-color: rgb(209, 12, 120);
     }
 }
+
+
+.formValidation{
+            
+            border: solid 2px gainsboro;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+
+#submit{
+    height: 40px;
+    width: auto;    
+    font-size: 20px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}        
